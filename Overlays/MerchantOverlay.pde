@@ -1,7 +1,7 @@
-public class MerchantOverlay extends Overlay {
+public class MerchantMainOverlay extends Overlay {
   ArrayList<Button> buttons;
   int x,y,wid,hei;
-  MerchantOverlay(int x,int y, int wid, int hei) {
+  MerchantMainOverlay(int x,int y, int wid, int hei) {
     this.x = x;
     this.y = y;
     this.hei = hei;

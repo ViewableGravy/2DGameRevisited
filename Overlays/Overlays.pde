@@ -1,6 +1,6 @@
 WorldObjectFactory woFactory = new WorldObjectFactory();
 
-OverlayManager overlayManager = new OverlayManager(new MerchantOverlay(100, 100, 100, 100), woFactory);
+OverlayManager overlayManager = new OverlayManager(new MerchantMainOverlay(100, 100, 100, 100), woFactory);
 
 void setup() {
   size(300, 300);
