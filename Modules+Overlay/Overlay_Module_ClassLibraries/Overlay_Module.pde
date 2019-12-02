@@ -1,6 +1,6 @@
 WorldObjectFactory woFactory = new WorldObjectFactory();
 OverlayFactory oFactory = new OverlayFactory();
-OverlayManager overlayManager = null; 
+OverlayManager overlayManager = null;
 
 void setup() {
   size(300, 300);

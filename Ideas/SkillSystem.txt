@@ -1,0 +1,26 @@
+Base stats:
+    Obviously a player has there base stats such as speed, agility, etc. 
+    These effects will cause you to attack faster or deal extra damage against damage types
+Monster fighter stats:
+    When you originally fight a monster you have a 0.5x multiplier on damage against that enemy type.
+    because of this you deal less damage. 
+    The more you fight a monster the less affected you are. for example, if you have fought a slime 500 times,
+    you will have a 1x multiplier against slimes. if you fight slimes maybe 10,000 times you may have a 2x multiplier
+    on damage against slimes.
+
+    If there are multiple tiers of a similar lvl, e.g. green slime (tier 1), gold slime(tier 4) you will gain progress towards 
+    damaging that monster type. with that said, obviously this system will be modified depending on monster.
+    Killing a raid boss for example, 10K times is not realistic so you may have to kill it less to get the bonuses
+    whereas killing a slime is relatively easy and therefore requires far more time to compensate for how easy it is.
+
+    Of course in some cases (e.g. slime), you may not care you have a 0.5x mult on damage since you already do 50x it'slimes
+    health in damage at base. There will be an achievement system that reflects your progress though
+skills:
+    on top of stats and buffs you also have skills which allow you to do unique things such as cast magic or sword skills
+
+Updating stats:
+    your stats and skills from killing enemies are not updated until you reach your home and have access to your
+    stat updating potion
+
+
+as for levels, lets be honest, i just wanna use dan machi's system
