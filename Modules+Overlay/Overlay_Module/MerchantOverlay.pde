@@ -15,15 +15,15 @@ public class MerchantCategoryOverlay extends Overlay {
   private ArrayList<Button> CreateSpecificButtons() {
     return new ArrayList<Button>() {{
       //Armour Category
-      add(new OverlayButton(new BoundingBox(boundingBox.x + Engine.Math.GetPercent(boundingBox.x,10),
-                                            boundingBox.y + Engine.Math.GetPercent(boundingBox.y,10),
+      add(new OverlayButton(new BoundingBox(boundingBox.x + Engine.Math.GetPercent(boundingBox.wid,10),
+                                            boundingBox.y + Engine.Math.GetPercent(boundingBox.hei,10),
                                             Engine.Math.GetPercent(boundingBox.wid,80),
                                             Engine.Math.GetPercent(boundingBox.hei,20)), 
                             "MerchantPurchaseArmourOverlay",
                             null));
       //Exit (exit interface entirely)
-      add(new OverlayButton(new BoundingBox(boundingBox.x + Engine.Math.GetPercent(boundingBox.x,10),
-                                            boundingBox.y + Engine.Math.GetPercent(boundingBox.y,35),
+      add(new OverlayButton(new BoundingBox(boundingBox.x + Engine.Math.GetPercent(boundingBox.wid,10),
+                                            boundingBox.y + Engine.Math.GetPercent(boundingBox.hei,35),
                                             Engine.Math.GetPercent(boundingBox.wid,80),
                                             Engine.Math.GetPercent(boundingBox.hei,20)),
                             "Exit",

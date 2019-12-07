@@ -3,8 +3,11 @@ OverlayFactory oFactory = new OverlayFactory();
 OverlayManager overlayManager = null;
 
 void setup() {
-  size(300, 300);
-  overlayManager = new OverlayManager(new MerchantCategoryOverlay(100, 100, 100, 100), woFactory, oFactory);
+  fullScreen();
+  //size(600, 300);
+  int left = 100;
+  int top = 100;
+  overlayManager = new OverlayManager(new MerchantCategoryOverlay(left, top, width-(left*2), height-(top*2)), woFactory, oFactory);
 }
 
 void draw() {

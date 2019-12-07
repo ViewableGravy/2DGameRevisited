@@ -13,5 +13,11 @@ public class OverlayButton extends Button {
       println("Added " + this.worldObjectType + " to cart!");
     return new OverlayInteraction(overlayType,worldObjectType);
   } 
+
+  //currently for testing
+  public void Display() {
+    super.Display();
+    text(overlayType, boundingBox.x + boundingBox.wid,boundingBox.y + boundingBox.hei);
+  }
   
 }
