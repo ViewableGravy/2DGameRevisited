@@ -1,0 +1,4 @@
+enum EventType {
+  MousePressed,
+  MouseMoved;
+}
